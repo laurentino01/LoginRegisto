@@ -1,0 +1,49 @@
+body {
+  background-color: #f8f8f8;
+}
+#login-area {
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 0.5px 10px 15px rgb(0 0 0 / 20%);
+  margin: 50px auto;
+  padding: 50px;
+}
+#img-area {
+  text-align: center;
+}
+#img-area,
+#forms-area a,
+a:visited,
+a:link {
+  color: black;
+}
+#img-area a:hover {
+  color: #6c63ff;
+  transition: 0.5s;
+}
+
+#img-area img {
+  margin-bottom: 50px;
+}
+#forms-area h2 {
+  margin-bottom: 30px;
+  font-weight: 900;
+  text-align: center;
+}
+
+#forms-area input[type="text"],
+input[type="password"],
+input[type="email"] {
+  border: none;
+  border-bottom: 1px solid #ccc;
+  border-radius: none;
+}
+
+#forms-area input:focus {
+  box-shadow: none;
+  border-bottom: 1px solid #ccc;
+}
+#forms-area .btn.btn-primary {
+  background-color: #6c63ff;
+  border-color: #6c63ff;
+}
